@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+*{
+    margin: 10px;
+    width: auto;
+}
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
+
+nav{
+    background-color: rgb(232, 110, 110); /*cor de fundo*/
+    padding: 5px 0; /* espaçamento interno */
+    
+}
+
+nav ul {
+    list-style-type: none; /*remove as bolinhas padrão da lista*/
+    margin: 0;
+    padding: 0;
+    display: flex; /*fazem com que os itens fiquem lado a lado*/
+    justify-content: center; /*centraliza os itens horizontalmente*/
+}
+
+nav ul li {
+    margin: 0 15px; /*espaçamento entre itens*/
+}
+
+nav ul li a {
+    color: aliceblue;/*cor do texto*/
+    text-decoration: none; /*remove o sublinhado dos links*/
+    font-size: 20px;/*tamanho da fonte*/
+    transition: color 0.3s;/*transição suave para a mudança de cor*/
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+nav ul li a:hover {
+    color: darkorchid; /*cor do texto ao passar o mouse*/
+
+}
+
+nav ul li img {
+    width: 66px;
+    height: 66px;
+    border-radius: 15px;
+    justify-content: left;
+}
+
+nav ul li .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: cornflowerblue;
+    box-shadow: 0px 8px 0px 8px;
+}
+footer {
+    background-color: #ef5a5a;
+    color: white;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    }
+    footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 020px;
+    }
+    footer-section {
+    flex-basis: 23%; /* Faz com que as seções ocupem 23% da largura, com espaço para margens */ 
+    margin-bottom: 20px;
+    }
+    footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px; 
+    color: #ff6347;
+    }
+    footer-section p, footer-section ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    }
+    footer-section ul {
+    list-style-type: none;
+    }
+    footer-section ul li {
+    margin-bottom: 10px;
+    }
+    footer-section ul li a {
+    color: white 
+    text-decoration none;
+    transition: color 0.35;
+    }
+    footer-section ul li a:hover {
+    color: #ff6347;
+    }
+    .social-links a {
+    display: inline-block; margin-right: 10px;
+    color: rgb(255, 206, 206); text-decoration: none; 
+    transition: color 0.3s;
+    }
+    .social-links a:hover {
+     color: rgb(62, 21, 21);
+    }
+    footer-bottom {
+    text-align: center; 
+    margin-top: 20px; 
+    padding: 10px 0; border-top: 1px solid #ff5d5d; font-size: 14px;
+    }
+    footer-bottom p {
+    margin: 0;
+    }
